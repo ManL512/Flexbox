@@ -1,0 +1,22 @@
+.container{
+    background-color: #333;  
+    /*display: inline-flex;*/ /* esta propiedad se encarga de hacer que el flex ocupe solamente el espacio necesario. */
+    height: 30vh;
+    display: flex;
+    flex-direction: row; /*flew-direction row coloca los elementos en FILA*/
+    flex-wrap: wrap-reverse; /*Pueden darse 3 propiedades: nowrap - wrap - wrap-reverse */
+    flex-flow: row wrap; /* es un shortcut de flexdirection y flex-wrap*/
+    justify-content: baseline;  
+    
+}
+
+.items{
+    border: medium solid #999;
+    background-color: #666;
+    width: 20%;
+    height: 35%;
+}
+::after,
+::before {
+    box-sizing: border-box; /**/
+}
