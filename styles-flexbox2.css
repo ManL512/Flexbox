@@ -7,6 +7,7 @@
     flex-wrap: wrap-reverse; /*Pueden darse 3 propiedades: nowrap - wrap - wrap-reverse */
     flex-flow: row wrap; /* es un shortcut de flexdirection y flex-wrap*/
     justify-content: baseline;  
+    align-items: center;
     
 }
 
